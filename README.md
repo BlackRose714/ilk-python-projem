@@ -43,6 +43,9 @@ Yeni projeler eklemeye ve öğrendiklerimi geliştirmeye devam ediyorum. 💻�
 
 
 
+
+
+
 1- 🎟 Bilet Fiyatı Hesaplayıcı
 
 Bu Python projesi, yaş, boy, öğrenci olma durumu ve indirim kuponuna göre bir kişinin bilet fiyatını hesaplar.
