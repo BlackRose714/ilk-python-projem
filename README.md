@@ -66,6 +66,8 @@ if / elif / else koşul yapıları
 2. İki sayı ve yapmak istediğiniz işlemi girin (+, -, x, /)
 3. Sonuç ekranda görüntülenir
 
+   
+
 
 
 3- Askerlik Uygunluk Kontrolü
