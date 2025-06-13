@@ -1,6 +1,48 @@
 # ilk-python-projem
 python denemelerim
 
+# 🐍 İlk Python Projem
+
+Bu depo, Python öğrenme yolculuğumun ilk projelerini içeriyor. Basit ama işlevsel uygulamalar geliştirerek programlamaya giriş yapıyorum.
+
+## 📌 Projeler
+
+### 1. Hesap Makinesi
+Kullanıcının iki sayı girip, yapmak istediği işlemi (+, -, x, /) seçtiği basit bir hesap makinesi uygulaması.
+
+📄 [hesap_makinesi.py](./hesap_makinesi.py)
+
+### 2. Bilet Hesaplayıcı
+Yaş, boy, öğrenci durumu ve indirim kuponu bilgilerine göre bilet fiyatını hesaplayan program.
+
+📄 [bilet_hesaplayici.py](./bilet_hesaplayici.py)
+
+### 3. Askerlik Yaşı Kontrolü
+Kullanıcının yaşına ve öğrenci olup olmadığına göre askere gitme durumunu belirler.
+
+📄 [askerlik_hesaplayici.py](./askerlik_hesaplayici.py)
+
+---
+
+## 💡 Öğrendiklerim
+
+- Değişken tanımlama
+- Kullanıcıdan bilgi alma (input)
+- Koşullu ifadeler (if, elif, else)
+- Tür dönüşümleri (int, str)
+- Basit matematiksel işlemler
+- Kod düzeni ve mantıksal yapı kurma
+
+---
+
+## ✨ Devam Ediyor
+
+Yeni projeler eklemeye ve öğrendiklerimi geliştirmeye devam ediyorum. 💻🧠
+
+
+
+
+
 1- 🎟 Bilet Fiyatı Hesaplayıcı
 
 Bu Python projesi, yaş, boy, öğrenci olma durumu ve indirim kuponuna göre bir kişinin bilet fiyatını hesaplar.
