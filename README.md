@@ -1,150 +1,157 @@
 # ilk-python-projem
 python denemelerim
 
-# 🐍 İlk Python Projem
+🐍 My First Python Projects
 
-Bu depo, Python öğrenme yolculuğumun ilk projelerini içeriyor. Basit ama işlevsel uygulamalar geliştirerek programlamaya giriş yapıyorum.
+This repository contains my very first Python projects as part of my learning journey. I'm building simple yet functional applications to get started with programming.
 
-## 📌 Projeler
+📌 Projects
 
-### 1. Hesap Makinesi
-Kullanıcının iki sayı girip, yapmak istediği işlemi (+, -, x, /) seçtiği basit bir hesap makinesi uygulaması.
+1. 🎟 Ticket Price Calculator
 
-📄 [hesap_makinesi.py](./hesap_makinesi.py)
+A Python program that calculates ticket prices based on age, height, student status, and discount coupon availability.
 
-### 2. Bilet Hesaplayıcı
-Yaş, boy, öğrenci durumu ve indirim kuponu bilgilerine göre bilet fiyatını hesaplayan program.
+Features:
 
-📄 [bilet_hesaplayici.py](./bilet_hesaplayici.py)
+Checks eligibility based on age and height
 
-### 3. Askerlik Yaşı Kontrolü
-Kullanıcının yaşına ve öğrenci olup olmadığına göre askere gitme durumunu belirler.
+Applies discount for students
 
-📄 [askerlik_hesaplayici.py](./askerlik_hesaplayici.py)
+Applies additional discount if a coupon code is entered
+
+Displays the final ticket price with the user's name
+
+
+Concepts Used:
+
+input() for user input
+
+int() for type casting
+
+if / else conditional structures
+
+lower() to handle case-insensitive input
+
+Formatted strings (f"") for output
+
+
+How to Use:
+
+1. Run the program
+
+
+2. Enter name, age, height, student status, and coupon info
+
+
+3. View the calculated ticket price
+
+
+
+📄 bilet_hesaplayici.py
+
 
 ---
 
-## 💡 Öğrendiklerim
+2. 📱 Basic Calculator
 
-- Değişken tanımlama
-- Kullanıcıdan bilgi alma (input)
-- Koşullu ifadeler (if, elif, else)
-- Tür dönüşümleri (int, str)
-- Basit matematiksel işlemler
-- Kod düzeni ve mantıksal yapı kurma
+A simple calculator that performs addition, subtraction, multiplication, and division between two numbers.
+
+Features:
+
+Takes two numbers as input
+
+Performs four basic operations
+
+Displays the result
+
+
+Concepts Used:
+
+input() for user input
+
+int() for type conversion
+
+if / elif / else statements
+
+
+How to Use:
+
+1. Run the program
+
+
+2. Enter two numbers and choose an operation (+, -, x, /)
+
+
+3. View the result on the screen
+
+
+
+📄 hesap_makinesi.py
+
 
 ---
 
-## ✨ Devam Ediyor
+3. 🪖 Military Eligibility Checker
 
-Yeni projeler eklemeye ve öğrendiklerimi geliştirmeye devam ediyorum. 💻🧠
+A small program that determines military service eligibility based on age and educational status.
 
+Features:
 
+Checks user's age
 
+Verifies student status
 
-
-
-
-
-1- 🎟 Bilet Fiyatı Hesaplayıcı
-
-Bu Python projesi, yaş, boy, öğrenci olma durumu ve indirim kuponuna göre bir kişinin bilet fiyatını hesaplar.
-
-📌 Özellikler
-
-Yaş ve boy kontrolü ile uygunluk denetimi
-
-Öğrencilere indirim uygulama
-
-Kupon kodu varsa ek indirim
-
-Sonuç olarak kişinin ismiyle birlikte bilet ücretini gösterme
+Guides the user based on eligibility
 
 
-🧠 Kullanılan Yapılar
+Concepts Used:
 
-input() ile kullanıcıdan bilgi alma
+input() for user input
 
-int() ile tür dönüşümü
+int() for type conversion
 
-if / else yapıları
+if / elif / else conditions
 
-lower() fonksiyonu ile kullanıcı girişini küçük harfe çevirme
-
-F-string (f"") ile çıktı yazdırma
+lower() to normalize user input
 
 
-🛠 Nasıl Kullanılır?
+How to Use:
 
-1. Kullanıcıdan isim, yaş, boy, öğrenci olup olmadığı ve kupon durumu sorulur
-2. Uygunluk kontrolü yapılır
-3. İndirimler hesaplanır
-4. Sonuç olarak bilet ücreti yazdırılır
-
-   
-
-2-📱 Hesap Makinesi
-
-Bu basit Python programı, iki sayı ile dört temel işlemi (toplama, çıkarma, çarpma, bölme) yapmanıza olanak tanır.
-
-📌 Özellikler
-
-Kullanıcıdan iki sayı alma
-
-Toplama, çıkarma, çarpma ve bölme işlemleri
-
-Sonucu ekrana yazdırma
+1. Run askerlik_hesaplayici.py in a Python environment
 
 
-🧠 Kullanılan Yapılar
-
-input() ile kullanıcıdan bilgi alma
-
-int() ile tür dönüşümü
-
-if / elif / else koşul yapıları
+2. Enter your age and education status
 
 
-🛠 Nasıl Kullanılır?
-
-1. Programı çalıştırın
-2. İki sayı ve yapmak istediğiniz işlemi girin (+, -, x, /)
-3. Sonuç ekranda görüntülenir
-
-   
+3. Receive eligibility feedback
 
 
 
-3- Askerlik Uygunluk Kontrolü
-
-Bu Python projesi, kullanıcıdan yaş ve eğitim durumu bilgisi alarak askere gitme durumunu kontrol eder.
-
-📌 Özellikler
-
-Yaş sorgulama
-
-Eğitim durumu kontrolü
-
-Askerlik zamanı hakkında yönlendirme
+📄 askerlik_hesaplayici.py
 
 
-🧠 Kullanılan Yapılar
+---
 
-input() ile kullanıcıdan bilgi alma
+💡 What I’ve Learned So Far
 
-int() ile tür dönüştürme
+Variable declaration
 
-if / elif / else koşul yapıları
+Taking input from users
 
-lower() ile küçük harfe çevirerek kullanıcı girişini kontrol etme
+Conditional logic
+Type casting (e.g., int, str)
 
+Basic math operations
 
-🛠 Nasıl Kullanılır?
-
-1. Python kurulu bir ortamda askerlik_kontrol.py dosyasını çalıştır.
-
-
-2. Yaşınızı ve eğitim durumunuzu girin.
+Clean and structured code writing
 
 
-3. Askerlik zamanınıza dair yönlendirmeyi ekranda görün.
+
+---
+
+✨ Ongoing Progress
+
+I continue adding new projects and improving my skills step by step. 🚀
+You’re welcome to follow along as I grow!
+
+
