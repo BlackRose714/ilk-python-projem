@@ -1,4 +1,4 @@
-# ilk-python-projem
+# my_first_python_projects1
 python denemelerim
 
 🐍 My First Python Projects
